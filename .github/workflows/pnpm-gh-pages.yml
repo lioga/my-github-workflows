@@ -77,11 +77,11 @@ jobs:
 
       - name: Check Files
         run: pwd && ls
-        
+
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ../build
+          folder: build
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: Deploy
