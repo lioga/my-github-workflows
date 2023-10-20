@@ -78,7 +78,7 @@ jobs:
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build
+          folder: ../build
           token: ${{ secrets.GITHUB_TOKEN }}
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v3
